@@ -1,3 +1,4 @@
+
 import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
 
 @Entity('users')
@@ -17,7 +18,7 @@ export class User {
   @Column({ nullable: true })
   picture: string;
 
-  @Column({ unique: true, nullable: true })
+  @Column({ type: 'varchar', unique: true, nullable: true })
   googleId: string | null;
 
   @CreateDateColumn()

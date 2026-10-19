@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\users",
+    "\\src\\users\\entities"
+  ],
+  "SelectedNode": "\\src\\users\\entities\\user.entity.ts",
+  "PreviewInSolutionExplorer": false
+}
